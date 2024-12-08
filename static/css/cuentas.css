@@ -46,7 +46,7 @@ a{
     margin: 2%;
     height: 170px;
     width: 350px;
-    border-radius:20%;
+    border-radius:20px;
     background-color: #dce5dc;
     cursor: pointer;
 }
