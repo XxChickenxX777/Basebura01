@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/nuevaeditar.css') }}">
+  <title>Editar Datos cuentas</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Ingresa los nuevos datos de la cuenta</h1>
+    <form>
+      <div class="form-group">
+        <label for="email">Nuevo correo electrónico:</label>
+        <input type="email" id="email" placeholder="Escribe el nuevo correo">
+      </div>
+      <div class="form-group">
+        <label for="password">Nueva contraseña:</label>
+        <input type="password" id="password" placeholder="Escribe la nueva contraseña">
+      </div>
+      <div class="form-group">
+        <label>Elije el nuevo tipo de cuenta:</label>
+        <div class="radio-group">
+          <label><input type="radio" name="account-type"> Representante</label>
+          <label><input type="radio" name="account-type"> Trabajador</label>
+          <label><input type="radio" name="account-type"> Administrador</label>
+        </div>
+      </div>
+      <button type="submit"><a href="{{ url_for('cuentae')}}">Enviar</button></a>
+      <button type="button" class="back-btn"><a href="{{ url_for('edita')}}">Regresar a la página anterior</a></button>
+    </form>
+  </div>
+</body>
+</html>

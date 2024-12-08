@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/edita.css') }}">
+  <title>Editar Cuentas</title>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Cuentas registradas</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Correo electrónico</th>
+          <th>Contraseña</th>
+          <th>Tipo de cuenta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>usuario@ejemplo.com</td>
+          <td>********</td>
+          <td>Tipo de cuenta</td>
+          <td>
+            <button><a href="{{ url_for('datosmodi')}}">Editar</a></button>
+          </td>
+        </tr>
+        <tr>
+          <td>otro@ejemplo.com</td>
+          <td>********</td>
+          <td>Tipo de cuenta</td>
+          <td>
+            <button><a href="{{ url_for('datosmodi')}}">Editar</a></button>
+          </td>
+        </tr>
+        <tr>
+          <td>cuenta@ejemplo.com</td>
+          <td>********</td>
+          <td>Tipo de cuenta</td>
+          <td>
+            <button><a href="{{ url_for('datosmodi')}}">Editar</a></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <button class="center-button"><a href="{{ url_for('admincuentas')}}">Regresar </a></button>
+</body>
+</html>

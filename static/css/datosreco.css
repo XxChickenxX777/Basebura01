@@ -1,0 +1,134 @@
+@font-face{
+    font-family: 'Emerald';
+    src: url('Lost Emerald.otf') format(opentype);
+}
+
+@font-face{
+    font-family: 'Eastwood';
+    src: url('Eastwood.otf') format(opentype);
+}
+
+.cu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cu h1 {
+    font-family: 'Eastwood', sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    color: #0ac2ff;;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #497d83;
+    padding: 2% 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a p{
+    background-color: #e7f0e7;
+    color: #7cafb6;
+    font-family: "Emerald", serif;
+    font-size: 25px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+}
+
+.ini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.ini div{
+    padding: 1%;
+}
+
+.lol{
+    margin: 2%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 760px;
+    height: 40px;
+    border-radius: 20px;
+    color: #7cafb6;
+    background-color: #e7f0e7;
+    font-size: 35px;
+}
+
+.lol label{
+    font-family: "Emerald", serif;
+}
+
+.loli{
+    margin: 2%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 910px;
+    height: 40px;
+    border-radius: 20px;
+    color: #7cafb6;
+    background-color: #e7f0e7;
+    font-size: 35px;
+}
+
+.loli label{
+    font-family: "Emerald", serif;
+}
+
+.lolis{
+    margin: 2%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1000px;
+    height: 40px;
+    border-radius: 20px;
+    color: #7cafb6;
+    background-color: #e7f0e7;
+    font-size: 35px;
+}
+
+.lolis label{
+    font-family: "Emerald", serif;
+}
+
+input{
+    font-size: 25px;
+    background-color: #e7f0e7;
+    border: none;
+}
+
+button{
+    background-color: #e7f0e7;
+    color: #7cafb6; 
+    font-family: "Emerald", serif;
+    font-size: 25px;
+    padding: 10px 40px;
+    border: none;
+    width: 175px;
+    height: 55px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.on{
+    margin: 1%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mtrabajador.css') }}">
+    <title>Menú Trabajador</title>
+</head>
+<body>
+    <main>
+        <section class="ini">
+            <div class="lol">
+                <a href="{{ url_for('mapa')}}"><p>Mapa de los tianguis</p></a>
+            </div>
+            <div class="info">
+                <a href="{{ url_for('estatusrepre')}}"><p>Informar estatus de la recolección</p></a>
+            </div>
+            <div class="lol">
+                <a href="{{ url_for('datosreco')}}"><p>Registrar datos de la recolección</p></a>
+            </div>
+            <div class="lol">
+                <a href="{{ url_for ('cuentas')}}"><p>Cerrar sesión</p></a>
+            </div>
+            <div>
+                <a href="{{ url_for('comunicarse')}}"><p class="mar">Comunicarse con los administradores</p></a>
+            </div>
+            <div>
+                <a href="{{ url_for('trabajador')}}"><p>Regresar a la página anterior</p></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

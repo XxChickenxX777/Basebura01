@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/datosreco.css') }}">
+    <title>Datos de Recolección</title>
+</head>
+<body>
+    <div class="cu">
+        <h1>Ingresa tu tipo de cuenta</h1>
+    </div>
+    <main>
+        <section class="ini">
+            <div class="loli">
+                <form action="/dr" method="post">
+                    <label for="cantidad">Cantidad de basura recolectada(kg): </label>
+                    <input type="text" id="cantidad" name="cantidad" placeholder="Ingresa la cantidad" required>
+            </div>
+            <div class="lol">
+                    <label for="tiempo">Tiempo de recolección(hrs): </label>
+                    <input type="text" id="tiempo" name="tiempo" placeholder="Ingresa el tiempo" required>
+            </div>
+            <div class="lolis">
+                    <label for="trabajadores">Número de trabajadores que participaron: </label>
+                    <input type="text" id="trabajadores" name="trabajadores" placeholder="Ingresa el número" required>
+            </div>
+            <div class="on">
+                    <button type="submit">Enviar</button>
+            </div>
+            <div class="in">
+                <a href="{{ url_for('mtrabajador')}}"><p>Regresar a la página anterior</p></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

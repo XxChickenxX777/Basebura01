@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Fondo general claro */
+    margin: 0;
+    padding: 0;
+    background-color: #2c6975;
+  }
+
+a{
+  text-decoration: none;
+  color: #2c6975;
+}
+
+  /* Contenedor principal */
+  .container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #2c6975;  /* Fondo verde oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Título */
+  h1 {
+    color: #87c0c9;  /* Azul claro */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Grupo de formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  /* Estilo de las etiquetas */
+  label {
+    display: block;
+    color: #dff4f5;  /* Color blanco suave */
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  /* Estilo para los inputs */
+  input[type="email"],
+  input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #eafafc;  /* Fondo claro para inputs */
+    color: #2c6975;  /* Color del texto */
+    font-size: 16px;
+  }
+
+  /* Grupo de botones de tipo de cuenta */
+  .radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .radio-group label {
+    color: #dff4f5;  /* Color blanco suave */
+    font-size: 16px;
+  }
+
+  /* Estilo de botones */
+  button {
+    background-color: #dff4f5;  /* Fondo claro */
+    color: #2c6975;  /* Color texto */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  button:hover {
+    background-color: #87c0c9;  /* Cambio al pasar el ratón */
+    color: white;
+  }
+
+  /* Estilo para el botón de regresar */
+  .back-btn {
+    background-color: #dff4f5;  /* Fondo claro */
+  }

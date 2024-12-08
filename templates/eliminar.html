@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/eliminar.css') }}">
+  <title>Eliminar Cuentas</title>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Cuentas registradas</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Correo electrónico</th>
+          <th>Tipo de cuenta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>usuario@ejemplo.com</td>
+          <td>Tipo de cuenta</td>
+          <td>
+            <a href="{{ url_for('advertencia')}}"><button>Eliminar</button></a>
+          </td>
+        </tr>
+        <tr>
+          <td>otro@ejemplo.com</td>
+          <td>Tipo de cuenta</td>
+          <td>
+            <a href="{{ url_for('advertencia')}}"><button>Eliminar</button></a>
+          </td>
+        </tr>
+        <tr>
+          <td>cuenta@ejemplo.com</td>
+          <td>Tipo de cuenta</td>
+          <td>
+            <a href="{{ url_for('advertencia')}}"><button>Eliminar</button></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <a href="{{ url_for('admincuentas')}}"><button class="center-button">Regresar</button></a>
+</body>
+</html>

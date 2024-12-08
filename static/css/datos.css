@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #497D83;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    height: 408px;
+    background-color: #497D83;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #7CAFB6;
+  }
+
+  header {
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .row {
+    display: contents;
+  }
+
+  .cell {
+    background-color: #5A876F;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .cell1 {
+    background-color: #5A876F;
+    color: #a6d5cd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .cell2 {
+    background-color: #5A876F;
+    color: #a6d5cd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 211px;
+    height: 20px;
+    font-weight: bold;
+  }
+  .cell3 {
+    background-color: #5A876F;
+    color: #a6d5cd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 258px;
+    height: 20px;
+    font-weight: bold;
+  }
+
+  .header .cell {
+    background-color: #5A876F;
+    font-weight: bold;
+  }
+
+  .footer .cell {
+    background-color: #5A876F;
+    font-weight: bold;
+  }
+
+  .back-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #b8dfd8;
+    color: #7CAFB6;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+
+  .back-button:hover {
+    background-color: #a6d5cd;
+  }
+  a{
+      text-decoration: none;
+      color: #7CAFB6;
+  }
+  input{
+      text-align: center;
+      color: #a6d5cd;
+      align-items: center;
+  }

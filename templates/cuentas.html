@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cuentas.css') }}">
+    <title>Tipo de cuenta</title>
+</head>
+<body>
+    <div class="cu">
+        <h1>Ingresa tu tipo de cuenta</h1>
+    </div>
+    <main>
+        <section class="eu">
+            <div>
+                <a href="{{ url_for('admin') }}"><p>Administrador</p></a>
+            </div>
+            <div>
+                <a href="{{ url_for('representante') }}"><p>Representante</p></a>
+            </div>
+            <div>
+                <a href="{{ url_for('trabajador') }}"><p>Trabajador</p></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

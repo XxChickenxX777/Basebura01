@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/datos.css') }}">
+  <title>Reporte</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Reporte</h1>
+    </header>
+    <div class="table">
+      <div class="row header">
+        <div class="cell1">Correo electrónico</div>
+        <div class="cell1">Ubicación del tianguis</div>
+        <div class="cell1">Basura recolectada</div>
+        <div class="cell1">Tiempo en recolectar</div>
+      </div>
+      <div class="row">
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+        <div class="cell3"></div>
+      </div>
+      <div class="row">
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+        <div class="cell3"></div>
+      </div>
+      <div class="row">
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+        <div class="cell3"></div>
+      </div>
+
+      <div class="row footer">
+        <div class="cell2   ">Total de servicios por mes</div>
+        <div class="cell2">Prom. de basura recolectada</div>
+        <div class="cell2   ">Tiempo Promedio en recolectar</div>
+        <br>
+      </div>
+      <div class="row">
+        <br>
+        <div class="cell2"></div>
+        
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+      </div>
+      <div class="row">
+        <br>
+        <div class="cell2"></div>
+        <div class="cell2"></div>
+      </div>
+      <div class="row">
+        <div class="cell2"></div>
+          </div>
+
+    </div>
+    <button class="back-button"><a href="{{ url_for('srepre')}}">Regresar</a></button>
+  </div>
+</body>
+</html>

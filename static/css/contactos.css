@@ -1,0 +1,75 @@
+body {
+    background-color: #435b61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    background-color: #DCE5DC;
+    padding: 5rem;
+    height: 350px;
+    width: 1000px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    color: #4d6b71;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #DCE5DC;
+  }
+
+  .admin-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .admin-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .admin-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../images/usuario.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+  }
+
+  .admin-info p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    background-color: #5a7d84;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .btn:hover {
+    background-color: #4d6b71;
+  }

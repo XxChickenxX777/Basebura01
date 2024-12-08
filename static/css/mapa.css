@@ -1,0 +1,80 @@
+body {
+    background-color: #497D83;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+#map {
+    height: 500px;
+    width: 1000px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.center-button {
+    padding: 10px 20px;
+    background-color: #5A876F;
+    color: #7CAFB6;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #7CAFB6;
+}
+
+.leaflet-container {
+    background-color: #497D83;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background-color: #497D83;
+    color: #333;
+}
+
+.leaflet-popup-content {
+    font-size: 14px;
+}
+
+.leaflet-popup-content a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.leaflet-popup-content a:hover {
+    text-decoration: underline;
+}
