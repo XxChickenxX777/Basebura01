@@ -57,6 +57,19 @@ a p{
     padding: 1%;
 }
 
+.lols{
+    margin: 2%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1000px;
+    height: 40px;
+    border-radius: 20px;
+    color: #7cafb6;
+    background-color: #e7f0e7;
+    font-size: 35px;
+}
+
 .lol{
     margin: 2%;
     display: flex;
